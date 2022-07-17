@@ -1,0 +1,271 @@
+.App {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.userInfo {
+  width: 250px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(110, 71, 142);
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.userInfo:hover {
+  background-color: rgb(236, 191, 247);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.userInfo img {
+  width: 100%;
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  margin: 5px;
+  padding: 5px;
+}
+
+.chats {
+  
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  margin-top: 5px;
+  
+
+}
+.chatWith{
+  background-color: rgb(255, 255, 255);
+  width: 550px;
+  margin: auto;
+  
+}
+
+.chatWith button{
+  background-color: rgb(150, 150, 150);
+  padding: 10px;
+  
+  margin-bottom: 7px;
+  border: 2px solid pink;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.chatWith button:hover{
+  background-color: rgb(127, 127, 127);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+  border: 3px solid pink;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.chatBox{
+  background-color: rgb(176, 176, 176);
+  width: 650px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 30px;
+ 
+}
+
+.chatBox button{
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: rgb(151, 161, 159);
+  border: 2px solid rgb(204, 204, 0);
+}
+
+.chatEntry{
+  margin-bottom: 15px;
+  background-color: rgb(210, 210, 210);
+}
+
+.message{
+  background-color: rgb(254, 254, 254);
+  border: 1px solid blueviolet;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.card {
+  background-color: rgb(213, 222, 222);
+  width: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+.card div img {
+  width: 90%;
+}
+
+.card h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 53, 92);
+  background-color: aliceblue;
+}
+
+.card button:hover{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 53, 92);
+  background-color: rgb(204, 225, 244);
+  cursor: pointer;
+}
+
+.navigation{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navigation a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(108, 108, 108);
+  font-weight: 600;
+  
+
+}
+.navigation a:hover{
+  padding: 10px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(8, 8, 8);
+  font-weight: 600;
+  font-size: large;
+  
+}
+
+.navigation a span{
+  color: blue;
+}
+
+.userCard {
+  background-color: rgb(213, 222, 222);
+  width: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+.userCard div img {
+  width: 90%;
+}
+
+.userCard h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.userCard button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 53, 92);
+  background-color: aliceblue;
+}
+
+.userCard button:hover{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 53, 92);
+  background-color: rgb(204, 225, 244);
+  cursor: pointer;
+}
+
+.userCard input{
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.userCard div{
+  margin-bottom: 5px;
+}
+
+
+.registration {
+  width: 450px;
+  background-color: rgb(225, 0, 255);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.registration input{
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.registration button{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 53, 92);
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+
+.registration .r{
+  text-align: left;
+  margin-left: 10px;
+}
+.registration .r input{
+  margin-top: 5px;
+  width: 95%;
+}
+
+.start {
+  width: 450px;
+  background-color: rgb(225, 0, 255);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.start input{
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.start button{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 53, 92);
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+
+.start .r{
+  text-align: left;
+  margin-left: 10px;
+}
+.start .r input{
+  margin-top: 5px;
+  width: 95%;
+}
+
